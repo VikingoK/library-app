@@ -1,0 +1,58 @@
+name: librery_app
+description: "Library app to search books"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.3 <4.0.0'
+
+dependencies:
+  auto_route: ^9.3.0+1
+  auto_size_text: ^3.0.0
+  cupertino_icons: ^1.0.8
+  dio: ^5.8.0+1
+  either_dart: ^1.0.0
+  flutter:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.3
+  flutter_riverpod: ^2.6.1
+  font_awesome_flutter: ^10.8.0
+  freezed: ^2.5.7
+  freezed_annotation: ^2.4.4
+  hexcolor: ^3.0.1
+  json_annotation: ^4.9.0
+  json_serializable: ^6.8.0
+  mockito: ^5.4.4
+  riverpod: ^2.6.1
+  riverpod_annotation: ^2.6.1
+  skeletonizer: ^1.4.3
+  url_launcher: ^6.3.1
+
+dev_dependencies:
+  auto_route_generator: ^9.0.0
+  build_runner: ^2.4.8
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+  riverpod_generator: ^2.6.2
+  riverpod_lint: ^2.6.2
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/placeholder_image_small.png
+    - assets/images/search_image.png
+    - assets/images/logo_image.png
+    - assets/images/recent_search.png
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-VariableFont_wght.ttf
+
+flutter_launcher_icons:
+  image_path: "assets/images/big_logo_image.png"
+  android: true
+  ios: true
+  remove_alpha_ios: true
