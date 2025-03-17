@@ -75,9 +75,5 @@ Si deseas ejecutar pruebas o analizar el código, puedes usar los siguientes com
   flutter test
   ```
 
-## 📌 Notas adicionales
-
-- Asegúrate de tener el SDK de Flutter instalado correctamente.
-
 ---
 Si tienes alguna pregunta sobre la implementación o el proyecto, puedes contactarme a través de mi correo.
