@@ -17,10 +17,3 @@ class BooksRouter extends AutoRouter {
         AutoRoute(page: DetailRoute.page),
       ];
 }
-
-// transiciones de ruta
-//  RouteType.custom(
-//         durationInMilliseconds: 300,
-//         reverseDurationInMilliseconds: 300,
-//         transitionsBuilder: TransitionsBuilders.slideBottom,
-//       );
