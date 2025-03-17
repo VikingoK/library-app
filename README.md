@@ -54,7 +54,8 @@ Sigue estos pasos para configurar y ejecutar el proyecto correctamente:
 
 - **Video demostrativo:** Disponible en el repositorio.
 - **APK para pruebas:** Se puede descargar desde el repositorio.
-- **Diseño original:** También incluido en el repositorio.
+- **Diseño creado la app:** También incluido en el repositorio.
+![desing_library_app](https://github.com/user-attachments/assets/0c75ba78-3087-4d90-8d54-d907c232171c)
 
 ## 🛠️ Herramientas adicionales
 
