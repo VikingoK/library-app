@@ -1,16 +1,73 @@
-# library_app
+# 📚 Librery App
 
-A new Flutter project.
+Librery App es una aplicación desarrollada en Flutter con arquitectura limpia. Este repositorio incluye el código fuente, un video demostrativo, un APK para instalación y el diseño original de la aplicación.
 
-## Getting Started
+## 📌 Funcionalidades Implementadas
 
-This project is a starting point for a Flutter application.
+- 📚 **Pantalla de inicio** : Muestra los nuevos libros lanzados.
+- 🔎 **Búsqueda de libros**: Permite ingresar el nombre del libro para consultarlo.
+- 📚 **Listado de resultados**: Muestra los libros encontrados según la búsqueda.
+- 📖 **Detalle del libro**: Al seleccionar un libro, se muestra su información junto con la imagen asociada y navegación hacia la pagina web del libro.
+- ⚡ **Caché de búsquedas**: Almacena en memoria caché los últimos 5 términos de búsqueda para agilizar futuras consultas.
+- 🛠 **Arquitectura limpia y pruebas**: Implementada en Flutter siguiendo arquitectura limpia e incluyendo pruebas unitarias.
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Tecnologías utilizadas
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Flutter** 3.24.3 (stable)
+- **Dart** 3.5.3
+- **DevTools** 2.37.3
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📂 Estructura del proyecto
+
+El proyecto sigue la arquitectura limpia (Clean Architecture), dividiendo el código en capas:
+
+- **core/** → Contiene configuraciones generales, temas y widgets reutilizables.
+- **features/** → Contiene las funcionalidades principales de la app, divididas en "domain", "data" y "presentation".
+
+## ⚙️ Instalación y configuración
+
+Sigue estos pasos para configurar y ejecutar el proyecto correctamente:
+
+1. **Clonar el repositorio:**
+   ```sh
+   git clone https://github.com/VikingoK/library-app.git
+   cd librery_app
+   ```
+
+2. **Instalar dependencias:**
+   ```sh
+   flutter pub get
+   ```
+
+3. **Generar archivos necesarios con build_runner:**
+   ```sh
+   dart run build_runner watch
+   ```
+   Este comando es fundamental, ya que se encarga de generar los archivos necesarios para que el proyecto funcione correctamente.
+
+4. **Ejecutar la aplicación:**
+   ```sh
+   flutter run
+   ```
+
+## 📹 Recursos disponibles
+
+- **Video demostrativo:** Disponible en el repositorio.
+- **APK para pruebas:** Se puede descargar desde el repositorio.
+- **Diseño original:** También incluido en el repositorio.
+
+## 🛠️ Herramientas adicionales
+
+Si deseas ejecutar pruebas o analizar el código, puedes usar los siguientes comandos:
+
+- **Ejecutar pruebas:**
+  ```sh
+  flutter test
+  ```
+
+## 📌 Notas adicionales
+
+- Asegúrate de tener el SDK de Flutter instalado correctamente.
+
+---
+Si tienes alguna pregunta sobre la implementación o el proyecto, puedes contactarme a través de mi correo.
