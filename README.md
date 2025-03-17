@@ -51,8 +51,8 @@ Sigue estos pasos para configurar y ejecutar el proyecto correctamente:
    ```
 
 ## Arquitectura en la Nube
-
 La siguiente imagen representa la arquitectura en la nube de la aplicación, utilizando servicios de AWS para gestionar la información de los libros y optimizar las búsquedas.
+<img width="963" alt="Arquitectura_nube" src="https://github.com/user-attachments/assets/e19ee01f-d905-4685-b2cb-d312a79c7f9a" />
 
 
 ## 📹 Recursos disponibles
