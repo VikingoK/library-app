@@ -53,8 +53,13 @@ Sigue estos pasos para configurar y ejecutar el proyecto correctamente:
 ## 📹 Recursos disponibles
 
 - **Video demostrativo:** Disponible en el repositorio.
-- **APK para pruebas:** Se puede descargar desde el repositorio.
-- **Diseño original:** También incluido en el repositorio.
+
+  
+- **APK para pruebas:**
+El apk se encuentra dentro del proyecto en la raiz del mismo con el nombre de library_app.apk
+  
+- **Diseño creado la app:** 
+![desing_library_app](https://github.com/user-attachments/assets/0c75ba78-3087-4d90-8d54-d907c232171c)
 
 ## 🛠️ Herramientas adicionales
 
