@@ -57,9 +57,7 @@ void main() {
     final Map<String, dynamic> jsonMap = jsonDecode(bookModelJson);
     final bookModel = BookModel.fromJson(jsonMap);
 
-    final book = bookMapper.toEntity(bookModel);
-
     // Act & Assert
-    expect(book, throwsA(isA<TypeError>()));
+    expect(() => bookMapper.toEntity(bookModel), throwsA(isA<TypeError>()));
   });
 }

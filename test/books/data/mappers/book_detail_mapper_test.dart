@@ -89,9 +89,10 @@ void main() {
     final Map<String, dynamic> jsonMap = jsonDecode(bookDetailModelJson);
     final bookDetailModel = BookDetailModel.fromJson(jsonMap);
 
-    final bookDetail = bookDetailMapper.toEntity(bookDetailModel);
-
     // Act & Assert
-    expect(bookDetail, throwsA(isA<TypeError>()));
+    expect(
+      () => bookDetailMapper.toEntity(bookDetailModel),
+      throwsA(isA<TypeError>()),
+    );
   });
 }
